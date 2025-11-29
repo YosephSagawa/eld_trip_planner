@@ -1,0 +1,97 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+
+# Django specific
+*.sqlite3
+media/
+staticfiles/
+*.log
+migrate
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Backend virtual environment
+backend/venv/
+backend/env/
+backend/ENV/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite / React build output
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Render / Vercel
+.render
+.vercel
+
+# Optional: Python bytecode
+*.pyc
+__pycache__/
+
+# Optional: If you use Celery
+celerybeat-schedule
+celerybeat.pid
